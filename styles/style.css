@@ -4,7 +4,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    familia tipográfica: 'Oswald', sans-serif;
 }
 h1 {
    color:rgb(62, 234, 59);
@@ -15,7 +14,7 @@ h2 {
 
 
 .fondo {
-   windth: 100%;
+   width: 100%;
    height: 100vh;
    background-image: url(../imagenes/fondooo.jpg);
 }
@@ -75,6 +74,14 @@ main {
 }
 
 
+.wsp {
+   position: fixed;
+   bottom: 50px;
+   right: 50px;
+}
+
+
+
 
 
 .cartita__imagen {
@@ -91,22 +98,32 @@ main {
 
 }
 
+.cartita:hover {
+   transition: transform 1s;box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+}
+
+
+.cartita:hover {
+    transform: rotate(140deg) scale(2) skew(30deg);
+}
+
+
+.cartita:hover {
+   transform: scale(1.1) translatey(-10px);
+}
+
+  
+
+
 
 
 
 .cartita__imagen
 .cartita__titulo
-.cartita__parrafo {
-   margin-boton: 5px;
-}
+.cartita__parrafo
 
 /* */
 
-.wsp {
-   position: fixed;
-   bottom: 50px;
-   right: 50px;
-}
 
 
 table {
